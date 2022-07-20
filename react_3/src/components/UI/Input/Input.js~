@@ -1,0 +1,29 @@
+import classes from './Input.module.css'
+
+import { useState } from 'react'
+
+
+
+const Input = dataProps => {
+
+
+
+	return (
+
+<input
+ className={ `
+  ${ classes.input }
+  ${ valueIsValid ? '' : ' ' + classes.error }
+ ` }
+ onInput={ inputHandler }
+/>
+
+	)
+
+
+
+}
+
+
+
+export default Input

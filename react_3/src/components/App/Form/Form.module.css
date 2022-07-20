@@ -1,0 +1,22 @@
+.form {
+	margin: auto;
+	box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 32, 0.04);
+	width: 50%;
+	padding-bottom: 4%;
+	border: 3px solid rgba(0, 0, 0, 0.02);
+	border-radius: 64px;
+	text-align: center;
+	background-color: rgba(0, 0, 32, 0.04);
+	overflow: auto;
+}
+
+@media(max-width: 720px) {
+	.form {
+		width: 80%;
+	}
+}
+
+.form div,
+.form button {
+	margin-top: 10%;
+}

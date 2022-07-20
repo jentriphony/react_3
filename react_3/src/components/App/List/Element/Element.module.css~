@@ -1,0 +1,30 @@
+.element {
+	margin: 2%;
+	border: 3px solid #cceedd;
+	border-radius: 15px;
+	overflow: auto;
+	width: 80%;
+	padding: 2%;
+	list-style-type: none;
+	text-align: center;
+	box-shadow: 1rem 1rem 1rem #666666;
+	font-family: monospace;
+	font-size: 16px;
+	font-weight: semibold;
+	background-color: #113322;
+	color: #cceedd;
+}
+
+@media(max-width: 720px) {
+	.element {
+		width: auto;
+	}
+}
+
+.element:hover {
+	cursor: pointer;
+}
+
+.element:active {
+	transition: 0.5s;
+}

@@ -1,0 +1,29 @@
+import classes from './Button.module.css'
+
+
+
+const Button = dataProps => {
+
+
+
+	return (
+
+<button className={ classes.button }>
+
+
+
+ { dataProps.innerText }
+
+
+
+</button>
+
+	)
+
+
+
+}
+
+
+
+export default Button

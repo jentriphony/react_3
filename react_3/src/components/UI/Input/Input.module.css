@@ -1,0 +1,18 @@
+.input {
+	margin-top: 2%;
+	border: 3px solid rgba(0, 0, 0, 0.04);
+	border-radius: 15px;
+	width: 60%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	font-family: monospace;
+	font-size: 1.5rem;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.input.error {
+	background-color: rgba(32, 0, 0, 0.2);
+}

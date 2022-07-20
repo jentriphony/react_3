@@ -1,0 +1,34 @@
+.element {
+	margin: 2%;
+	border: 3px solid rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	overflow: auto;
+	width: 80%;
+	padding: 2%;
+	list-style-type: none;
+	text-align: center;
+	box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.8);
+	font-family: monospace;
+	font-size: 16px;
+	font-weight: semibold;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #cceedd;
+	transition: ease 0.4s;
+}
+
+@media(max-width: 720px) {
+	.element {
+		width: auto;
+	}
+}
+
+.element:hover,
+.element:active {
+	box-shadow: 1rem 1rem 1rem rgba(255, 255, 255, 0.4);
+	border-color: rgba(255, 255, 255, 0.4);
+	cursor: pointer;
+}
+
+.element:active {
+	transition: 0.5s;
+}

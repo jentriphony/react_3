@@ -1,0 +1,28 @@
+.button {
+	margin: 2%;
+	border-radius: 15px;
+	overflow: auto;
+	width: 40%;
+	padding: 2%;
+	font-family: monospace;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: rgba(255, 255, 255, 0.8);
+	overflow: hidden;
+	transition: ease 0.2s;
+}
+
+@media(max-width: 720px) {
+	.button {
+		width: auto;
+	}
+}
+
+.button:hover,
+.button:active {
+	cursor: pointer;
+	border-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(255, 255, 255, 0.4);
+	color: rgba(0, 0, 0, 0.8);
+}

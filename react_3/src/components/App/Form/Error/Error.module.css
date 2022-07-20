@@ -1,0 +1,50 @@
+.error {
+	/* center div */
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	/* margin-right: -50%; */
+   	transform: translate(-50%, -50%);
+	/* end center div */
+
+	box-shadow: 1rem 1rem 1rem 8000px rgba(0, 0, 0, 0.8);
+	border-radius: 80px;
+	width: 34%;
+	border: 2px solid rgba(0, 0, 0, 0.4);
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 2%;
+	text-align: center;
+}
+
+@media(max-width: 720px) {
+	.error {
+		width: 80%;
+		padding: 8%;
+	}
+}
+
+.error.hide {
+	transition: 0.4s;
+	display: none;
+}
+
+.error p {
+	border-radius: 32px;
+	width: 40%;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	overflow: hidden;
+	font-family: monospace;
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.6);
+	white-space: pre-wrap;
+}
+
+@media(max-width: 720px) {
+	.error p {
+		width: auto;
+	}
+}

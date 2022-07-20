@@ -1,0 +1,18 @@
+.list {
+	margin: auto;
+	box-shadow: 1rem 1rem 1rem #678876;
+	border: 3px solid #000000;
+	border-radius: 15px;
+	width: 50%;
+	background-color: #0f1e2d;
+}
+
+@media(max-width: 720px) {
+	.list {
+		width: auto;
+	}
+}
+
+.list p {
+	color: #ffffff;
+}

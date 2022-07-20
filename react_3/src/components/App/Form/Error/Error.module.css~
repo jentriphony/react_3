@@ -1,0 +1,15 @@
+.error {
+	display: block;
+	box-shadow: 1rem 1rem 1rem #666666;
+	background-color: #663399;
+}
+
+.error p {
+	border: 3px solid #000000;
+	border-radius: 16px;
+	font-family: monospace;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: #cccccc;
+	color: #993366;
+}

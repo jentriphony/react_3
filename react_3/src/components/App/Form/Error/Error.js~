@@ -1,0 +1,44 @@
+import classes from './Error.css'
+
+import Button from './../../../UI/Button/Button'
+
+
+
+const Error = dataProps => {
+
+
+
+	const clickHandler = () {
+
+		
+
+	}
+
+
+return (
+
+<div className={ classes.error }>
+
+
+
+ <p>{ dataProps.message }</p>
+
+ <Button
+  type='button'
+  clickHandler={ close }
+  innerText='ok'
+ />
+
+
+
+</div>
+
+)
+
+
+
+}
+
+
+
+export default Error
